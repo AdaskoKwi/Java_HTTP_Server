@@ -1,8 +1,6 @@
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.charset.StandardCharsets;
-import java.util.Date;
 public class SimpleHTTPServer {
     public static void main(String[] args) throws IOException {
         SimpleHTTPServer server = new SimpleHTTPServer();
